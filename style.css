@@ -1,0 +1,88 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+#camera, #camera--view, #camera--sensor, #camera--output{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+	z-index: 0;
+}
+#camera--view, #camera--sensor, #camera--output{
+    transform: scaleX(-1);
+    filter: FlipH;
+}
+
+#camera--trigger{
+ height: 667px!important;
+    width: 375px!important;
+    position: relative;
+	
+}
+#myBtn: visited{
+	opacity: 0;
+	
+}
+.taken .modal-content {
+    height: 667px!important;
+    width: 375px!important;
+    transition: all 0.5s ease-in;
+    top: 0;
+    right: 0; 
+}
+
+
+.closebtn {
+  position: fixed;
+  top: 36px;
+  left: 30px;
+  color: white;
+  font-size: 50px;
+  font-family: 'ChaparralPro-Regular';
+   
+}
+
+p{
+	position: fixed;
+	margin-top:160%;
+	margin-left: 80%;
+	opacity: 0;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 99; /* Sit on top */
+  padding-top: 0; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+ 
+  
+}
+
+/* Modal Content */
+.modal-content {
+
+  background-image:url("img/photopage.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+opacity: 1;
+  height: 100%;
+  margin: 0;
+  color: white;
+  z-index:0;
+
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
