@@ -20,6 +20,13 @@ html, body{
  height: 667px!important;
     width: 375px!important;
     position: relative;
+background-image:url("img/2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+opacity: 1;
+  height: 100%;
+  margin: 0;
 	
 }
 #myBtn: visited{
