@@ -20,7 +20,7 @@ html, body{
  height: 667px!important;
     width: 375px!important;
     position: fixed;
-margin-top:0;
+margin-top:-10%;
 	
 }
 #myBtn: visited{
