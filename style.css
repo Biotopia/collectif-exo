@@ -19,7 +19,8 @@ html, body{
 #camera--trigger{
  height: 667px!important;
     width: 375px!important;
-    position: relative;
+    position: fixed;
+margin-top:0;
 	
 }
 #myBtn: visited{
